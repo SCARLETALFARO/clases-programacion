@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="selectcolor" onchange="cambiarcolordesdeselect()">
+        <option value="danger">danger</option>
+        <option value="dark>">dark</option>
+        <option value="pink">pink</option>
+        <option value="red">red</option>
+    </select>
+    <input type="color"  id="bgcolor" onchange="cambiarcolor()">
+    <button onclick="cambiarcolor()">cambiarcolor</button>
+    <div class="cards">
+        <p class="color" onmouseover="colorear('yellow')">
+            cambiar a amarillo
+        </p>
+        <p class="color" onmouseover="colorear('red')">
+            cambiar a rojo
+        </p>
+        </div>
+        <script src="main.js"></script>
+     </body>
+     </html>
