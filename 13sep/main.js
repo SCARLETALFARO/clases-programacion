@@ -8,7 +8,7 @@ let cat = "angelina"
 let flag =true //bollean ,dicotomica
 let number = 1 // number,numeros enteros o decimales
 let text = "el texto va entre comillas" //sting, texto
-let arr=[1,2,3,4,8] //arrays,cada elemento tiene un indece y parten desde 0
+let arr=[1,2,3,4,8] //arrays,cada elemento tiene un indice y parten desde 0
 let arr2=["texto" , [1,2,3],4, true] //arrays
 
 arr[2] //acceder al valor 4
